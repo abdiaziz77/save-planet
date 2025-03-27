@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Protecting Our Forests",
+      "description": "Forests are vital for life on Earth. Learn how we can conserve and protect them.",
+      "image": "images/pj1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Saving Marine Life",
+      "description": "Oceans are home to diverse marine species. Let's explore ways to protect them.",
+      "image": "images/saving marine.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Renewable Energy Solutions",
+      "description": "Switching to renewable energy is key to sustainability. Discover new solutions.",
+      "image": "images/renewable energy.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Reducing Plastic Waste",
+      "description": "Learn how small changes can drastically cut down plastic waste in our environment.",
+      "image": "images/plastic"
+    },
+    {
+      "id": "5",
+      "title": "Urban Green Spaces",
+      "description": "Discover the benefits of green spaces in cities and how they improve quality of life.",
+      "image": "images/Somalia-Top-Green-Buildings.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Sustainable Agriculture",
+      "description": "Explore farming techniques that ensure food security while protecting nature.",
+      "image": "images/agriculture"
+    },
+    {
+      "id": "7",
+      "title": "Water Conservation",
+      "description": "Understand the importance of saving water and practical steps to reduce wastage.",
+      "image": "images/water.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Eco-Friendly Transportation",
+      "description": "Learn how sustainable transport options can cut carbon emissions and pollution.",
+      "image": "images/Bajaaj-A-B.png.webp"
+    },
+    {
+      "id": "9",
+      "title": "Climate Change Awareness",
+      "description": "Find out how climate change is impacting our world and what we can do to help.",
+      "image": "images/climate"
+    },
+    {
+      "id": "37c5",
+      "title": "postyy",
+      "description": "my post",
+      "image": "https://www.samvednango.in/assets/img/slider/save-nature.jpg"
+    }
+  ]
+}
