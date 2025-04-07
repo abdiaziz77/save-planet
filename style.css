@@ -77,7 +77,7 @@ header.scrolled #menu-icon {
     padding: 5px 15px;
     transition: color 0.3s ease-in-out;
     text-decoration: none;
-}
+} 
 
 .navbar ul li a:hover {
     color: var(--green);
@@ -360,12 +360,13 @@ header.scrolled #menu-icon {
     opacity: 1;
 }
 .icons a {
-    color: white;
+    color: red;
     font-size: 24px;
     background: rgba(255, 255, 255, 0.2);
     padding: 10px;
     border-radius: 50%;
     transition: background 0.3s;
+    text-decoration: none;
 }
 .icons a:hover {
     background: rgba(255, 255, 255, 0.5);
@@ -463,6 +464,29 @@ p {
     font-style: italic;
     font-weight: bold;
 }
+.custom-alert {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    background-color: #fff;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 30px;
+    z-index: 9999;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  .custom-alert h4 {
+    font-size: 1.5rem;
+    color: green;
+  }
+  .custom-alert button {
+    margin-top: 20px;
+  }
+  
 .post-container {
     background: url('https://www.samvednango.in/assets/img/slider/save-nature.jpg') no-repeat center center/cover;
     padding: 50px 0;
@@ -497,6 +521,10 @@ p {
     background: #218838;
 }
 
+.post-container h2{
+    font-size: 60px;
+  
+}
 
 .post-card {
     background: rgba(0, 0, 0, 0.7); 
@@ -517,8 +545,8 @@ p {
     padding: 15px;
 }
 .post-content h5{
-    color: #0d5803;
-    font-size: 20px;
+    color: white;
+    font-size: 25px;
 }
 .post-content p{
     color: #fff;
@@ -572,7 +600,7 @@ p {
     justify-content: center;
 }
 .brand img {
-    height: 80px;
+    height: 120px;
     margin-right: 10px;
 }
 @media (max-width: 1024px) {

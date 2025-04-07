@@ -3,44 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Save planet</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Save Planet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        
-        <a href="index.html" class="logo">
-            <img src="images/images_green-removebg-preview (1).png" alt="Logo">
-        </a>
-
-        
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="donate.html">Donate</a></li>
-                <li><a href="posts.html">Posts</a></li>
-            </ul>
-        </nav>
-
-        
-        <div class="fas fa-bars" id="menu-icon"></div>
+    
+    <header class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
+        <div class="container" style="max-width: 80%;"> 
+            <a href="index.html" class="navbar-brand ms-0">
+                <img src="images/images_green-removebg-preview (1).png" alt="Logo" height="200">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ms-3"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item ms-3"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item ms-3"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item ms-3"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item ms-3"><a class="nav-link" href="posts.html">Posts</a></li>
+                    <li class="nav-item ms-3"><a class="nav-link btn btn-success text-white" href="donate.html">Donate</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
+    
+    
+    
 
-    <section class="home" id="home">
-        <div class="content">
-            <h1>Save Earth Save Life</h1>
-            <p>Every action we take today shapes the world of tomorrow. Join us in protecting our planet!</p>
-            <a href="save-nature.html" class="btn">Explore More</a>
-
+    
+    <section class="hero d-flex align-items-center" style="background: url('https://www.samvednango.in/assets/img/slider/save-nature.jpg') no-repeat center center/cover; height: 100vh;">
+        <div class="container text-center text-white">
+            <h1 class="display-3 fw-bold">Protect Nature, Protect Life</h1>
+            <p class="lead">Together, we can create a sustainable future for our planet.</p>
+            <a href="donate.html" class="btn btn-success btn-lg">Donate Now</a>
         </div>
     </section>
 
+    <section class="home-content py-5" style="background-color: darkslategrey; color: white;">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                
+                <div class="col-md-6">
+                    <h2 class="fw-bold text-success">How We Make a Difference</h2>
+                    <p style="color: wheat;">We work collaboratively with communities and organizations worldwide to create sustainable solutions that restore and protect the planet. Our approach focuses on conservation, education, and innovation.</p>
+                    <p style="color: wheat;">Through extensive research, community partnerships, and global impact, we aim to ensure a thriving planet for future generations. We focus on tangible actions that lead to long-term environmental sustainability.</p>
+                    <p style="color: wheat;">By implementing reforestation projects, promoting renewable energy, and advocating for responsible waste management, we contribute to a healthier environment. Our mission is to empower individuals and communities to take meaningful action.</p>
+                    <p style="color: wheat;">Education plays a crucial role in our efforts. We conduct workshops, online campaigns, and grassroots movements to raise awareness about climate change, biodiversity loss, and sustainable living.</p>
+                    <p style="color: wheat;">From supporting local conservation initiatives to influencing global policies, every step we take moves us closer to a sustainable future. Join us in making a difference today!</p>
+                </div>
+    
+                <div class="col-md-6">
+                    <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F967971d2-1bc9-4f8a-aecb-cdd5fc6a11da_1200x628.png" alt="Our Impact" class="img-fluid" 
+                         style="width: 100%; height: 100vh; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+<section class="how-we-work py-5" style="background: url('https://site-547756.mozfiles.com/files/547756/medium/south-africa-elephant.jpg') no-repeat center center/cover; color: white;">
+    <div class="container text-center text-wheat">
+        <h2 class="fw-bold text-success">How We Work</h2>
+        <p style="color: wheat;">Our approach to conservation is holistic and sustainable, focused on real-world impact.</p>
+        <div class="row">
+            
+            <div class="col-md-4">
+                <i class="fas fa-seedling fa-3x mb-3"></i>
+                <h3>Conservation Planning</h3>
+                <p style="color: wheat;">We begin by conducting research and planning strategies that focus on the specific needs of each ecosystem.</p>
+            </div>
+            
+            <div class="col-md-4">
+                <i class="fas fa-hand-holding-water fa-3x mb-3"></i>
+                <h3>Community Engagement</h3>
+                <p style="color: wheat;">We collaborate with local communities to ensure our efforts align with their needs and capabilities.</p>
+            </div>
+            
+            <div class="col-md-4">
+                <i class="fas fa-leaf fa-3x mb-3"></i>
+                <h3>Implementation</h3>
+                <p style="color: wheat;">Through on-the-ground projects, we restore habitats, protect wildlife, and reduce environmental impacts.</p>
+            </div>
+        </div>
+        <a href="projects.html" class="btn btn-primary btn-lg mt-4">Learn More</a>
+    </div>
+</section>
+
+
+    
+    <section class="contact py-5" style="background-color: darkgreen;">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <p>Connect with us to support environmental conservation.</p>
+            <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt"></i> Garissa University, Garissa, Kenya</li>
+                <li><i class="fas fa-phone"></i> +254 7123456789</li>
+                <li><i class="fas fa-envelope"></i> info@savelife.org</li>
+            </ul>
+        </div>
+    </section>
+
+    
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -69,10 +140,8 @@
             <p>Created By <a href="#">Zizuu</a> | All Rights Reserved</p>
         </div>
     </footer>
-
-     
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="script.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

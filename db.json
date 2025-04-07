@@ -4,61 +4,133 @@
       "id": "1",
       "title": "Protecting Our Forests",
       "description": "Forests are vital for life on Earth. Learn how we can conserve and protect them.",
-      "image": "images/pj1.jpg"
+      "image": "http://localhost:5500/images/pj1.jpg",
+      "likes": 17,
+      "comments": [
+        "nice job",
+        "nice work"
+      ],
+      "shares": 2
     },
     {
       "id": "2",
       "title": "Saving Marine Life",
       "description": "Oceans are home to diverse marine species. Let's explore ways to protect them.",
-      "image": "images/saving marine.jpg"
+      "image": "images/saving marine.jpg",
+      "likes": 7,
+      "comments": [
+        "wow"
+      ]
     },
     {
       "id": "3",
       "title": "Renewable Energy Solutions",
       "description": "Switching to renewable energy is key to sustainability. Discover new solutions.",
-      "image": "images/renewable energy.jpg"
+      "image": "images/renewable energy.jpg",
+      "likes": 2,
+      "comments": []
     },
     {
       "id": "4",
       "title": "Reducing Plastic Waste",
       "description": "Learn how small changes can drastically cut down plastic waste in our environment.",
-      "image": "images/plastic"
+      "image": "images/plastic",
+      "likes": 2,
+      "comments": []
     },
     {
       "id": "5",
       "title": "Urban Green Spaces",
       "description": "Discover the benefits of green spaces in cities and how they improve quality of life.",
-      "image": "images/Somalia-Top-Green-Buildings.jpg"
+      "image": "images/Somalia-Top-Green-Buildings.jpg",
+      "likes": 4,
+      "comments": []
     },
     {
       "id": "6",
       "title": "Sustainable Agriculture",
       "description": "Explore farming techniques that ensure food security while protecting nature.",
-      "image": "images/agriculture"
+      "image": "images/agriculture",
+      "likes": 2,
+      "comments": []
     },
     {
       "id": "7",
       "title": "Water Conservation",
       "description": "Understand the importance of saving water and practical steps to reduce wastage.",
-      "image": "images/water.jpg"
+      "image": "images/water.jpg",
+      "likes": 5,
+      "comments": []
     },
     {
       "id": "8",
       "title": "Eco-Friendly Transportation",
       "description": "Learn how sustainable transport options can cut carbon emissions and pollution.",
-      "image": "images/Bajaaj-A-B.png.webp"
+      "image": "images/Bajaaj-A-B.png.webp",
+      "likes": 4,
+      "comments": [
+        "nice work"
+      ]
     },
     {
       "id": "9",
       "title": "Climate Change Awareness",
       "description": "Find out how climate change is impacting our world and what we can do to help.",
-      "image": "images/climate"
+      "image": "images/climate",
+      "likes": 4,
+      "comments": [
+        "👍👍"
+      ]
+    }
+  ],
+  "donations": [
+    {
+      "firstName": "Ali",
+      "lastName": "Hassan",
+      "email": "ali@example.com",
+      "amount": "$10",
+      "method": "paypal",
+      "id": "f9c8"
     },
     {
-      "id": "37c5",
-      "title": "postyy",
-      "description": "my post",
-      "image": "https://www.samvednango.in/assets/img/slider/save-nature.jpg"
+      "firstName": "Fatima",
+      "lastName": "Omar",
+      "email": "fatima@gmail.com",
+      "amount": "$20",
+      "method": "mpesa",
+      "id": "552f"
+    },
+    {
+      "id": "ff31",
+      "firstName": "abdiaziz",
+      "lastName": "noor",
+      "email": "abdiaziznoor20@gmail.com",
+      "amount": "$10",
+      "method": "mpesa"
+    },
+    {
+      "id": "xhpf",
+      "firstName": "mohaamednoor",
+      "lastName": "hussein",
+      "email": "mohamednoordagane2195@gmail.com",
+      "amount": "$50",
+      "method": "mpesa"
+    },
+    {
+      "id": "aa0l",
+      "firstName": "aisha",
+      "lastName": "hassan",
+      "email": "aishahass28@gmail.com",
+      "amount": "$500",
+      "method": "paysil"
+    },
+    {
+      "id": "rrja",
+      "firstName": "abdi",
+      "lastName": "omar",
+      "email": "abdizeey28@gmail.com",
+      "amount": "$500",
+      "method": "mpesa"
     }
   ]
 }
