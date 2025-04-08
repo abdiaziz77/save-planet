@@ -1,23 +1,20 @@
 {
   "posts": [
     {
-      "id": "1",
       "title": "Protecting Our Forests",
       "description": "Forests are vital for life on Earth. Learn how we can conserve and protect them.",
       "image": "http://localhost:5500/images/pj1.jpg",
-      "likes": 17,
-      "comments": [
-        "nice job",
-        "nice work"
-      ],
-      "shares": 2
+      "likes": 0,
+      "comments": [],
+      "shares": 0,
+      "id": "1"
     },
     {
       "id": "2",
       "title": "Saving Marine Life",
       "description": "Oceans are home to diverse marine species. Let's explore ways to protect them.",
       "image": "images/saving marine.jpg",
-      "likes": 7,
+      "likes": 8,
       "comments": [
         "wow"
       ]
@@ -71,16 +68,6 @@
       "comments": [
         "nice work"
       ]
-    },
-    {
-      "id": "9",
-      "title": "Climate Change Awareness",
-      "description": "Find out how climate change is impacting our world and what we can do to help.",
-      "image": "images/climate",
-      "likes": 4,
-      "comments": [
-        "👍👍"
-      ]
     }
   ],
   "donations": [
@@ -129,6 +116,22 @@
       "firstName": "abdi",
       "lastName": "omar",
       "email": "abdizeey28@gmail.com",
+      "amount": "$500",
+      "method": "mpesa"
+    },
+    {
+      "id": "g51j",
+      "firstName": "abdiftah",
+      "lastName": "ibrahim",
+      "email": "12345@gmail.com",
+      "amount": "$500",
+      "method": "bank"
+    },
+    {
+      "id": "gms4",
+      "firstName": "moon lover",
+      "lastName": "the moon",
+      "email": "moonlover@gmail.com",
       "amount": "$500",
       "method": "mpesa"
     }
